@@ -42,11 +42,6 @@ a:hover {
   cursor: pointer;
 }
 
-.accent-button {
-  background-color: var(--accent-color);
-  color: var(--main-background-color);
-}
-
 .button:hover,
 .button:focus {
   background-color: var(--accent-color);
@@ -70,6 +65,14 @@ a:hover {
   font-size: 26px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+}
+
+.site-nav a {
+  color: var(--secondary-text-color);
+}
+
+.site-nav a:hover {
+  color: var(--accent-color);
 }
 
 .logo:hover {
